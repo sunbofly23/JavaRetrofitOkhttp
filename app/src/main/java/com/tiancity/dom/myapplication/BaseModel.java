@@ -13,7 +13,6 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class BaseModel <T>{
 
     public final String baseUrl = "http://jsonplaceholder.typicode.com/";
-//    public final String baseUrl = "https://tsisdktest.tiancity.com/";
 
     public BaseService service;
     //创建Retrofit对象

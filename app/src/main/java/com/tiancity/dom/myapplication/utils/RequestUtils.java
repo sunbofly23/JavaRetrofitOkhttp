@@ -15,7 +15,7 @@ public class RequestUtils {
 
     //签名规则:值排序拼接key,md5转大写
     public static String getSign(FormBody formBody){
-        String key = "0Sf@ok*3%FEGsfAMqflK6tqwM4B$3ofU";
+        String key = "******************************";
         SortedMap<String,String> sortedMap = new TreeMap<>();
         for(int i = 0 ;i<formBody.size();i++){
             if(formBody.encodedName(i).equals("sign"))
