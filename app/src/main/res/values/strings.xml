@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_comment">评论</string>
+    <string name="text_user">用户</string>
+    <string name="text_todo">全部</string>
+    <string name="text_photo">Glide</string>
+    <string name="todo">TODO</string>
+</resources>
